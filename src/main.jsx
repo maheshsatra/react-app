@@ -4,10 +4,17 @@ import './index.css'
 import App from './App.jsx'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { BrowserRouter } from 'react-router';
+import Header from './components/pages/Header.jsx';
+
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ToastContainer />
-    <App />
+      <BrowserRouter>
+        <ToastContainer />
+        <Header />
+        <App />
+      </BrowserRouter>
   </StrictMode>,
 )
