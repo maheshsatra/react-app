@@ -1,0 +1,9 @@
+.cartitem {
+  font-size: 10px;
+  background: #ccc;
+  text-align: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+}
